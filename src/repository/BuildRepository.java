@@ -2,7 +2,7 @@ package repository;
 
 import model.Build;
 import model.Home;
-import model.Summery;
+import model.SummerHome;
 import model.Villa;
 import util.CurrencyType;
 
@@ -22,9 +22,9 @@ public class BuildRepository {
         Build villa2 = new Villa(160, 4, 2, 25400, CurrencyType.USD);
         Build villa3 = new Villa(185, 5, 2, 29700, CurrencyType.EURO);
 
-        Build summery1 = new Summery(40, 1, 0, 375000, CurrencyType.TL);
-        Build summery2 = new Summery(66.8, 2, 1, 75000, CurrencyType.USD);
-        Build summery3 = new Summery(112, 4, 2, 18000, CurrencyType.EURO);
+        Build summery1 = new SummerHome(40, 1, 0, 375000, CurrencyType.TL);
+        Build summery2 = new SummerHome(66.8, 2, 1, 75000, CurrencyType.USD);
+        Build summery3 = new SummerHome(112, 4, 2, 18000, CurrencyType.EURO);
 
         buildList.add(home1);
         buildList.add(home2);

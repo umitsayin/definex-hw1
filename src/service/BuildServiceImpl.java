@@ -3,7 +3,7 @@ package service;
 import constant.CurrencyConstant;
 import model.Build;
 import model.Home;
-import model.Summery;
+import model.SummerHome;
 import model.Villa;
 
 import java.util.List;
@@ -26,8 +26,8 @@ public class BuildServiceImpl implements BuildService{
     }
 
     @Override
-    public double getTotalPriceOfSummeriesInTL(List<Build> buildList) {
-        List<Build> summeryList = filterBuildsByBuildType(buildList,Summery.class);
+    public double getTotalPriceOfSummerHomesInTL(List<Build> buildList) {
+        List<Build> summeryList = filterBuildsByBuildType(buildList, SummerHome.class);
 
         return calculateBuildsPrice(summeryList);
     }
@@ -52,7 +52,7 @@ public class BuildServiceImpl implements BuildService{
     }
 
     @Override
-    public double getAverageSquareMeterOfSummeries(List<Build> buildList) {
+    public double getAverageSquareMeterOfSummerHomes(List<Build> buildList) {
         List<Build> summeryList = filterBuildsByBuildType(buildList, Villa.class);
 
         return calculateBuildsAverageSquareMeter(summeryList);
