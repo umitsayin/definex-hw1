@@ -18,6 +18,9 @@ Bir servis class'ının içine de aşağıdaki metotları yazınız:
 
 Not:
 
-İsimlendirmelerin İngilizce olmasına dikkat ediniz.Nesneye yönelik programlamaya uygun tasarım yapınız.Clean code prensiplerine uyunuz.Main metot içinde tüm metotları konsola anlamlı şekilde yazdırınız.
+* İsimlendirmelerin İngilizce olmasına dikkat ediniz.
+* Nesneye yönelik programlamaya uygun tasarım yapınız.
+* Clean code prensiplerine uyunuz.
+* Main metot içinde tüm metotları konsola anlamlı şekilde yazdırınız.
 
 ![Screenshot 2023-02-17 at 00 07 28](https://user-images.githubusercontent.com/69505917/219487253-76a4aa4e-4491-4fc8-b3ec-440db568889e.png)
