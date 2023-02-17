@@ -6,7 +6,15 @@ Bir class içerisinde en az 3er tane Ev, Villa ve Yazlık nesnelerinden oluştur
 
 Bir servis class'ının içine de aşağıdaki metotları yazınız:
 
-Evlerin toplam fiyatlarını dönen bir metotVillaların toplam fiyatlarını dönen bir metotYazlıkların toplam fiyatlarını dönen metotTüm tipteki evlerin toplam fiyatını dönen metotEvlerin ortalama metrekaresini dönen bir metotVillaların ortalama metrekaresini dönen bir metotYazlıkların ortalama metrekaresini dönen metotTüm tipteki evlerin ortalama metrekaresini dönen metotOda ve salon sayısına göre tüm tipteki evleri filtreleyip dönen metot
+Evlerin toplam fiyatlarını dönen bir metot
+Villaların toplam fiyatlarını dönen bir metot
+Yazlıkların toplam fiyatlarını dönen metot
+Tüm tipteki evlerin toplam fiyatını dönen metot
+Evlerin ortalama metrekaresini dönen bir metot
+Villaların ortalama metrekaresini dönen bir metot
+Yazlıkların ortalama metrekaresini dönen metot
+Tüm tipteki evlerin ortalama metrekaresini dönen metot
+Oda ve salon sayısına göre tüm tipteki evleri filtreleyip dönen metot
 
 Not:
 
