@@ -23,4 +23,4 @@ Not:
 * Clean code prensiplerine uyunuz.
 * Main metot içinde tüm metotları konsola anlamlı şekilde yazdırınız.
 
-![Screenshot 2023-02-17 at 00 07 28](https://user-images.githubusercontent.com/69505917/219487253-76a4aa4e-4491-4fc8-b3ec-440db568889e.png)
+![Screenshot 2023-02-17 at 12 03 39](https://user-images.githubusercontent.com/69505917/219600722-8601de8b-97c2-4d1f-bbde-a4b00a22fff7.png)
