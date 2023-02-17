@@ -3,7 +3,7 @@ package service;
 import constant.CurrencyConstant;
 import model.Build;
 import model.Home;
-import model.SummerHome;
+import model.SummerHouse;
 import model.Villa;
 
 import java.util.List;
@@ -27,7 +27,7 @@ public class BuildServiceImpl implements BuildService{
 
     @Override
     public double getTotalPriceOfSummerHomesInTL(List<Build> buildList) {
-        List<Build> summeryList = filterBuildsByBuildType(buildList, SummerHome.class);
+        List<Build> summeryList = filterBuildsByBuildType(buildList, SummerHouse.class);
 
         return calculateBuildsPrice(summeryList);
     }

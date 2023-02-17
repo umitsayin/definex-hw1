@@ -26,8 +26,9 @@ public class Main {
 
         System.out.println("---------------------------------");
 
+        System.out.println("Filter 4 room and 2 halls builds : ");
         for(Build build : buildService.filterBuildsByRoomCountAndHallCount(buildList,4,2)){
-            System.out.println("Filter 4 room and 2 halls builds : " + build.toString());
+            System.out.println(build.toString());
         }
     }
 }

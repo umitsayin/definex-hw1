@@ -1,5 +1,6 @@
 package model;
 
+import util.BuildType;
 import util.CurrencyType;
 
 public abstract class Build {
@@ -8,13 +9,15 @@ public abstract class Build {
     private final int numberOfHalls;
     private final double price;
     private final CurrencyType currencyType;
+    private final BuildType buildType;
 
-    public Build(double squareMeter, int numberOfRooms, int numberOfHalls, double price, CurrencyType currencyType) {
+    public Build(double squareMeter, int numberOfRooms, int numberOfHalls, double price, CurrencyType currencyType, BuildType buildType) {
         this.squareMeter = squareMeter;
         this.numberOfRooms = numberOfRooms;
         this.numberOfHalls = numberOfHalls;
         this.price = price;
         this.currencyType = currencyType;
+        this.buildType = buildType;
     }
 
     public double getSquareMeter() {
@@ -45,6 +48,7 @@ public abstract class Build {
                 ", numberOfHalls=" + numberOfHalls +
                 ", price=" + price +
                 ", currencyType=" + currencyType +
+                ", buildType=" + buildType +
                 '}';
     }
 }
